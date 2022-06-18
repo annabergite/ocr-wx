@@ -1,0 +1,16 @@
+<!--pages/check/check.wxml-->
+ <!--搜索框  -->
+ <view class="sousuokuang">
+    <view class="sousuo">
+        <view class="shurukuang">
+            <input type="text" placeholder="搜索" value="" bindinput="GetSearchInput"></input>
+        </view>
+        <view class="sousuo_anniu" bindtap="ToSearch">
+            <text>搜索</text>
+            <icon type="search" size="20"></icon>
+        </view>
+    </view>
+</view>
+<view wx:for = "{{img_list}}" wx:for-index="index" wx:for-item="item" class="container" style="display: flex;justify-content: center;">
+  <image src="{{item}}" id="{{item}}"style="width: 95%; height: 550rpx;margin-top: 40rpx;" bindtap="show_content"/>
+</view>

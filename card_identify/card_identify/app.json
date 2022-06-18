@@ -1,0 +1,30 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/check/check"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "图片识别",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+      "selectedColor": "#3cb371",
+      "backgroundColor": "#f5f5f5",
+      "borderStyle": "white",
+      "list": [
+
+        {
+          "text": "识别",
+          "pagePath": "pages/index/index"
+        },
+        {
+          "text": "图片识别历史",
+          "pagePath": "pages/check/check"
+        }
+      ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

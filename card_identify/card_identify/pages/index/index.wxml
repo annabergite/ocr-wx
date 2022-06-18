@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container" style="display: flex;justify-content: center;">
+ <!--index.wxml-->
+<button style="background-color: cornflowerblue;" bindtap="chooseimage">上传图片</button>
+<image src="{{tempFilePaths }}" style="width: 95%; height: 550rpx;margin-top: 40rpx;"/>
+</view>
+<!--<button style="background-color: cornflowerblue;" wx:if="{{have_img}}">识别卡号</button>-->
+<view  style="margin-top: 40rpx;"wx:if="{{have_img}}">{{infor}}</view>
+

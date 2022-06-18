@@ -1,0 +1,40 @@
+.sousuokuang {
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+.sousuo {
+  width: 92%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+.shurukuang {
+  width: 80%;
+  height: 64rpx;
+  border-radius: 32rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+.shurukuang input {
+  width: 90%;
+  height: 100%;
+  font-size: 32rpx;
+}
+.sousuo_anniu {
+  width: 20%;
+  height: 64rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sousuo_anniu text {
+  font-size: 30rpx;
+}
