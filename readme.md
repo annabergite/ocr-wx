@@ -1,4 +1,4 @@
-使用flask作为后台逻辑的Paddle OCR号牌检测系统，web前端使用模板引擎jinja2，移动端使用微信小程序js作为前端页面；
+# 使用flask作为后台逻辑的Paddle OCR号牌检测系统，web前端使用模板引擎jinja2，移动端使用微信小程序js作为前端页面；
 
 web部分使用的是本地inference模型（pychar可以自行下载部署），移动部分则调用百度paddleocr接口进行调用，需要自行注册以及调用
 
